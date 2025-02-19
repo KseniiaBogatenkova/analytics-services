@@ -1,12 +1,25 @@
-export default function Home() {
+import React from "react";
+
+const Home = () => {
   return (
-    <section className="flex flex-col items-center justify-center text-center min-h-[60vh] px-4">
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-        Welcome to Analytics Services
-      </h1>
-      <p className="text-md sm:text-lg lg:text-xl">
-        We provide top-notch analytics solutions.
-      </p>
-    </section>
+    <div className="text-center text-white">
+      <h1 className="text-3xl font-bold">Welcome to Analytics Services</h1>
+      <p className="text-lg mt-2">We provide top-notch analytics solutions.</p>
+
+      {/* Contact Section */}
+      <div className="mt-10">
+        <h2 className="text-2xl font-semibold">Contact Us</h2>
+        <a
+          href="https://t.me/Data_In_Sight"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 text-lg hover:underline"
+        >
+          Chat with us on Telegram
+        </a>
+      </div>
+    </div>
   );
-}
+};
+
+export default Home;
