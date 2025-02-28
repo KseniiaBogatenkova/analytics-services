@@ -1,14 +1,31 @@
 {
-    "welcome": "Welcome to the Analytics Service!",
-    "description": "We turn data into a powerful tool for growing your business.",
-    "contactUs": "Contact Us",
-    "chatWithUsOnTelegram": "Chat with us on Telegram",
-    "home": "Home",
-    "product": "Product",
-    "solutions": "Solutions",
-    "resources": "Resources",
-    "about": "About"
-  }
+  "welcome": "Welcome to the Analytics Service!",
+  "description": "We turn data into a powerful tool for growing your business.",
+  "contactUs": "Contact Us",
+  "chatWithUsOnTelegram": "Chat with us on Telegram",
+  "home": "Home",
+  "product": "Product",
+  "solutions": "Solutions",
+  "resources": "Resources",
+  "about": "About",
   
+  "products_title": "Products",
+  "products_analytics": "Data Analytics: data exploration, insights discovery, and visualization creation",
+  "products_ab_testing": "A/B Testing: experiment design, results analysis, and recommendations",
+  "products_sql": "SQL & Databases: query optimization, database management, and working with big data",
+  "products_ml": "Python & Machine Learning: automation, data analysis, and forecasting",
+  "products_consulting": "Consulting & Training: business analytics guidance and foundational training",
   
+  "solutions_title": "Solutions",
+  "solutions_description": "Our solutions, driven by data analytics and a personalized approach, are designed to foster innovation, optimize business processes, and create measurable impact across various industries. We enable businesses to make informed decisions, reduce costs, and enhance performance through data insights, automation, and accurate forecasting.",
   
+  "resources_title": "Resources",
+  "resources_product_overview": "Product Overview",
+  "resources_webinars": "Webinars",
+  
+  "about_title": "About",
+  "about_description": "Data Insight is an independent analytics studio that helps businesses make data-driven decisions. We don’t just create charts—we dive deep into data to uncover patterns, forecast trends, and improve business performance.",
+  "about_approach": "We operate without bureaucracy, complex processes, or unnecessary formalities. Instead, we offer flexible collaboration formats, including one-time analytics projects, hourly consultations, or long-term partnerships.",
+  "about_differentiation": "What sets us apart? A personalized approach and speed. We tailor our work to each client’s needs, deliver results quickly, and provide solutions that truly make an impact.",
+  "about_invite": "Need clear insights for better decision-making? Welcome to Data Insight."
+}

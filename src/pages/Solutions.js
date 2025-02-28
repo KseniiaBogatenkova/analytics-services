@@ -1,19 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Solutions = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="text-white p-4 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Solutions</h1>
-      <p className="text-lg leading-relaxed">
-        Our solutions, driven by data analytics and a personalized approach,
-        are designed to foster innovation, optimize business processes,
-        and create measurable impact across various industries.
-        We enable businesses to make informed decisions, reduce costs,
-        and enhance performance through data insights, automation,
-        and accurate forecasting.
-      </p>
+    <div className="text-left p-6">
+      <h1 className="text-3xl font-bold mb-4">{t("solutions_title")}</h1>
+      <p className="text-lg">{t("solutions_description")}</p>
     </div>
   );
 };
 
 export default Solutions;
+

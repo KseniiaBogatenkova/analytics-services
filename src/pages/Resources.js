@@ -1,16 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Resources = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="text-white p-4 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Resources</h1>
-      <ul className="list-disc ml-5 space-y-2">
-        <li>
-          <strong>Product Overview</strong>
-        </li>
-        <li>
-          <strong>Webinars</strong>
-        </li>
+    <div className="text-left p-6">
+      <h1 className="text-3xl font-bold mb-4">{t("resources_title")}</h1>
+
+      <ul className="text-lg space-y-3">
+        <li>{t("resources_product_overview")}</li>
+        <li>{t("resources_webinars")}</li>
       </ul>
     </div>
   );
